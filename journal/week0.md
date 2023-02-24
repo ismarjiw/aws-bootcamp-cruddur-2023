@@ -5,13 +5,14 @@
 2. Watched spend considerations
 3. Watched security considerations
 
-## **Crudder Logical Diagram**: https://lucid.app/lucidchart/fa7ad448-c196-4262-afb2-2c1f91a8a4c7/edit?viewport_loc=-492%2C-25%2C2249%2C1134%2C0_0&invitationId=inv_835f8e79-3f53-44a9-ae70-a664ddbf7f41
+## **Crudder Logical Diagram**: 
+https://lucid.app/lucidchart/fa7ad448-c196-4262-afb2-2c1f91a8a4c7/edit?viewport_loc=-492%2C-25%2C2249%2C1134%2C0_0&invitationId=inv_835f8e79-3f53-44a9-ae70-a664ddbf7f41
 
-Screen Shot 2023-02-23 at 8.11.11 PM.png
+## **Crudder Conceptual Diagram**: 
+https://lucid.app/lucidchart/cb4a2a83-4880-4ae8-8035-09ceb33dd928/edit?viewport_loc=-112%2C-115%2C1579%2C789%2C0_0&invitationId=inv_c34b2e8b-dac4-4e06-a0df-4756ed3f70d0
 
-## **Crudder Conceptual Diagram**: https://lucid.app/lucidchart/cb4a2a83-4880-4ae8-8035-09ceb33dd928/edit?viewport_loc=-112%2C-115%2C1579%2C789%2C0_0&invitationId=inv_c34b2e8b-dac4-4e06-a0df-4756ed3f70d0
-
-Screen Shot 2023-02-23 at 8.19.19 PM.png
+## Screenshots: 
+https://imgur.com/a/c1uc6V7
 
 4. Created admin user
 5. Used cloudshell
