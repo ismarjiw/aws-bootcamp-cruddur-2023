@@ -22,9 +22,9 @@ https://imgur.com/a/c1uc6V7
 
 ### Homework challenges
 - Set up MFA and IAM role
-Screen Shot 2023-02-23 at 8.47.25 PM.png
 - Used EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue
-Screen Shot 2023-02-23 at 8.56.47 PM.png
 - Reviewed all the questions of each pillars in the Well Architected Tool
-Screen Shot 2023-02-23 at 8.42.02 PM.png
+
+## Screenshots: 
+https://imgur.com/a/D1k6EVY
 
