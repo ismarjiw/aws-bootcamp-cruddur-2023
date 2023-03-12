@@ -39,8 +39,8 @@ from flask import got_request_exception
 # LOGGER.info("Test Log")
 
 # X-RAY - - - - - - 
-# xray_url = os.getenv("AWS_XRAY_URL")
-# xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+xray_url = os.getenv("AWS_XRAY_URL")
+xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
 # Honeycomb - - - - - - 
 ## app.py updates
@@ -58,6 +58,7 @@ provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
 
+#OTEL - - - - - - -
 # Show this in logs within the backend-flask app (STDOUT)
 # simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
 # provider.add_span_processor(simple_processor)
@@ -67,7 +68,7 @@ tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
 # X-RAY - - - - - - 
-# XRayMiddleware(app, xray_recorder)
+XRayMiddleware(app, xray_recorder)
 
 # Honeycomb - - - - - 
 ## Initialize automatic instrumentation with Flask
@@ -103,6 +104,7 @@ def init_rollbar():
     # send exceptions from `app` to rollbar, using flask's signal system.
     got_request_exception.connect(rollbar.contrib.flask.report_exception, app)
     
+# Cloudwatch Logs - - - - - - -
 # @app.after_request
 # def after_request(response):
 #     timestamp = strftime('[%Y-%b-%d %H:%M]')
